@@ -31,16 +31,8 @@ const Theme = createTheme({
                     borderRadius:"1.5em",
 
                 },
-                size:"small"
             }
         },
-        muiTextField:{
-            defaultProps:{
-                style:{
-                    padding:"0"
-                }
-            }
-        }
     }
 })
 
