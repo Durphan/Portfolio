@@ -5,7 +5,7 @@ import React from 'react'
 
 
 
-export const Input = ({id, type, label, changeProp}) =>{
+export const Input = ({id, type, label, changeProp, isRequired}) =>{
 
     return(
         <>
@@ -18,6 +18,8 @@ export const Input = ({id, type, label, changeProp}) =>{
           onChange={changeProp}
           variant="outlined"
           size='small'
+          {...isRequired ?  {required: true} : {} }
+          
           sx={{
               marginLeft:"3%",
               width:"55%",
