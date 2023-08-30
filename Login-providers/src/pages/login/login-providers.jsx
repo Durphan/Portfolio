@@ -1,6 +1,7 @@
 import Container from '@mui/material/Container'
-import { Navbar } from '../../components/navbar'
-import { Form } from '../../components/form'
+import { Form } from './components/form'
+import { Navbar } from './components/navbar'
+
 
 export const LoginProviders = () =>{
     return(
