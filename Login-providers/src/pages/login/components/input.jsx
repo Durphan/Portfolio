@@ -5,7 +5,7 @@ import React from 'react'
 
 
 
-export const Input = ({id, type, label, changeProp, handleError}) =>{
+export const Input = ({id, type, label, changeProp, handleError, errorMessage}) =>{
 
     return(
         <>
@@ -19,6 +19,7 @@ export const Input = ({id, type, label, changeProp, handleError}) =>{
           error={handleError}
           variant="outlined"
           size='small'
+          helperText={errorMessage}
           sx={{
               marginLeft:"3%",
               width:"55%",
