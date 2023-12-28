@@ -20,7 +20,7 @@ const Theme = createTheme({
     },
     typography:{
         fontFamily:"Arial",
-        fontSize:13
+        fontSize:13,
     },
     components:{
         MuiButton:{
@@ -33,7 +33,8 @@ const Theme = createTheme({
                 },
             }
         },
-    }
+    },
+    
 })
 
 
