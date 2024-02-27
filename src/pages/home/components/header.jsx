@@ -12,6 +12,7 @@ export const Header = () => {
         flexWrap={"wrap"}
         width="100%"
         marginBottom="30px"
+        marginTop="160px"
         borderRadius="15%"
       >
         <Typography variant="h1" color="#D1EDD2">
