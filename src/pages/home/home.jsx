@@ -1,6 +1,6 @@
 import { ThemeConfig } from "../../config/theme.config";
-import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
+import { Footer } from "./components/footer";
+import { Header } from "./components/header";
 import { ConsoleEmulator } from "./components/consoleEmulator";
 
 export const Home = () => {
