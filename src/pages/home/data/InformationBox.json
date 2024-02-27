@@ -1,0 +1,16 @@
+{
+    "es":{
+        "Titulo":"Bienvenido a mi portafolio",
+        "Descripcion":"Soy un programador JR",
+        "link1":"Habilidades blandas y tecnicas",
+        "link2":"Proyectos terminados",
+        "link3":"Estudios"
+    },
+    "en":{
+        "Title":"Welcome to my portfolio",
+        "Description":"I'm a web developer which objective is to participate in creative proyects and provide my knowledge in front-end and back-end",
+        "link1":"Soft and techic skills",
+        "link2":"Eded projects",
+        "link3":"Studies"
+    }
+}
