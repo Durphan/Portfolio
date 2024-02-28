@@ -1,7 +1,10 @@
-import { Box } from "@mui/material";
+import { Box, useMediaQuery } from "@mui/material";
 import Typography from "@mui/material/Typography";
 
 export const Header = () => {
+
+  const isMobile = useMediaQuery("(max-width:600px)");
+
   return (
     <>
       <Box
@@ -12,7 +15,7 @@ export const Header = () => {
         flexWrap={"wrap"}
         width="100%"
         marginBottom="30px"
-        marginTop="160px"
+        marginTop={isMobile? "50px" : "160px"}
         borderRadius="15%"
       >
         <Typography variant="h1" color="#D1EDD2">

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useMediaQuery } from "@mui/material";
+import { Box, useMediaQuery } from "@mui/material";
 import { InformationBox } from "./InformationBox";
 
 export const ConsoleEmulator = () => {
@@ -18,15 +18,15 @@ export const ConsoleEmulator = () => {
   };
 
   return (
-    <div
-      style={{
+    <Box
+      sx={{
         width: isMobile ? "100%" : "70%",
         margin: "0 auto",
         overflowY: "auto",
       }}
     >
-      <div
-        style={{
+      <Box
+        sx={{
           backgroundColor: "black",
           color: "white",
           padding: "10px",
@@ -41,7 +41,7 @@ export const ConsoleEmulator = () => {
         {output.map((content, index) => (
           <div key={index}>{content}</div>
         ))}
-      </div>
-    </div>
+      </Box>
+    </Box>
   );
 };
