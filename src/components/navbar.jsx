@@ -10,7 +10,7 @@ export const Navbar = () => {
         position: { xs: "fixed", sm: "sticky" },
       }}
     >
-      <Toolbar sx={{ justifyContent: "space-between" }}>
+      <Toolbar sx={{ justifyContent: {sm:"space-between", xs:"center"} }}>
         <Typography variant="h6">
           <a href="/" style={{ textDecoration: "none", color: "white" }}>
             <svg
