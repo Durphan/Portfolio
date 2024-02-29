@@ -12,7 +12,6 @@ export const InformationBox = () => {
       alignContent={"center"}
       alignItems={"center"}
       padding={2}
-      textAlign={"justify"}
     >
       <ul>
         <li className="description">Welcome to my portfolio</li>
