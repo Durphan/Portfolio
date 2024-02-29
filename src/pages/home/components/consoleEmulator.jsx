@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Box, Typography, useMediaQuery } from "@mui/material";
+import { Box, useMediaQuery } from "@mui/material";
 import { InformationBox } from "./InformationBox";
 
 export const ConsoleEmulator = () => {
@@ -30,7 +30,7 @@ export const ConsoleEmulator = () => {
           backgroundColor: "black",
           color: "white",
           padding: "10px",
-          fontFamily: "monospace",
+          fontFamily: "Kode mono",
           height: "100%",
           width: "100%",
           maxWidth: "800px",
@@ -39,7 +39,7 @@ export const ConsoleEmulator = () => {
         }}
       >
         {output.map((content, index) => (
-          <Typography key={index}>{content}</Typography>
+          <div key={index}>{content}</div>
         ))}
       </Box>
     </Box>
