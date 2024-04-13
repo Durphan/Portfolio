@@ -1,0 +1,37 @@
+{
+    "informationBox":{
+        "title":"Bienvenido a mi portafolio.",
+        "resume":"Soy un desarrollador web que disfruta del aprendizaje constante y de crear aplicaciones innovadoras, ofreciendo mi conocimiento en back-end y front-end.",
+        "invitation":"Si estas interesado puedes ver informacion mas abajo.",
+        "skillsLink":"Habilidades tecnicas y blandas",
+        "projectsLink":"Proyectos",
+        "educationLink":"Educacion"
+    },
+    "projects":{
+        "tools":"Herramientas usadas",
+        "title":"Proyectos",
+        "rickAndMorty":{
+            "description":"Una pagina web en donde puedes ver informacion basica de los personajes de Rick&Morty"
+        },
+        "gameJam":{
+            "description":"Desarrollo intensivo de 3 dias para un videojuego, encargandome de la organizacion del equipo."
+        },
+        "sunrise-cafe":{
+            "description":"Un proyecto open-source que busca simular un menu de una cafeteria, incluyendo metodos de pago y login."
+        }
+    },
+    "education":{
+        "tools":"Herramientas aprendidas",
+        "title":"Educacion",
+        "university":{
+            "description":"Tecnicatura Universitaria en Programacion"
+        },
+        "english":{
+            "toolsLearned":"Lectura y uso del ingles.",
+            "description":"Ingles B2"
+        },
+        "course":{
+            "description":"Desarrollo Web FullStack"
+        }
+    }
+}
