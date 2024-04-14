@@ -11,7 +11,7 @@
         "tools":"Herramientas usadas",
         "title":"Proyectos",
         "rickAndMorty":{
-            "description":"Una pagina web en donde puedes ver informacion basica de los personajes de Rick&Morty"
+            "description":"Una pagina web en donde puedes ver informacion basica de los personajes de Rick&Morty."
         },
         "gameJam":{
             "description":"Desarrollo intensivo de 3 dias para un videojuego, encargandome de la organizacion del equipo."

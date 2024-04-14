@@ -19,6 +19,7 @@ export const GridItem = ({
 	toolsLearned,
 }) => {
 	const { t } = useTranslation();
+
 	return (
 		<>
 			<Grid item xs={12} sm={6} md={4} lg={3} mx={2}>
@@ -33,7 +34,7 @@ export const GridItem = ({
 							backgroundColor: '#00000',
 							my: '2em',
 							boxShadow: '10px 5px 5px 5px black',
-							height: `465px`,
+							xs: { height: '465px' },
 						}}
 					>
 						<CardHeader title={gridName} />
