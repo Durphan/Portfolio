@@ -1,6 +1,6 @@
 import { Box, Grid } from '@mui/material';
 
-export const SkillAcordion = ({ children }) => {
+export const SkillBox = ({ children }) => {
 	return (
 		<Box marginTop='2em'>
 			<Grid
