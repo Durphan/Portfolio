@@ -1,4 +1,4 @@
-import { Box, Divider, Typography, Grid } from '@mui/material';
+import { Box, Typography, Grid } from '@mui/material';
 
 export const GridBox = ({ titleBox, children }) => {
 	return (
@@ -6,7 +6,6 @@ export const GridBox = ({ titleBox, children }) => {
 			<Typography variant='h4' color='#D1EDD2' textAlign={`center`}>
 				{titleBox}
 			</Typography>
-			<Divider />
 			<Grid container my={1} justifyContent={'center'} alignItems={'center'}>
 				{children}
 			</Grid>
