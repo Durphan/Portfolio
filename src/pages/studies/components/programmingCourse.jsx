@@ -9,7 +9,7 @@ export const ProgrammingCourse = () => {
 			<GridItem
 				gridName={'Argentina Programa #SeProgramar'}
 				description={t(`education.course.description`)}
-				toolsLearned={'Ruby, Angular, Typescript, NodeJS, MYSQL, SCRUM'}
+				toolsLearned={'Ruby, Angular, Typescript, NodeJS, SCRUM'}
 				img={argentinaprograma}
 				link={`https://mumuki.io/argentina-programa/certificates/verify/Rg8pNQYLjd4ZUywK`}
 				isProject={false}
