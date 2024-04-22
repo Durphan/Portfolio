@@ -1,5 +1,6 @@
-import { AppBar, Toolbar, Typography, Divider } from '@mui/material';
+import { AppBar, Toolbar, Divider } from '@mui/material';
 import { Home, Projects, Skills, Studies } from '../assets/iconsNavbar';
+import { NavbarLink } from './navbarLink';
 
 export const Navbar = () => {
 	return (
@@ -14,29 +15,10 @@ export const Navbar = () => {
 			<Toolbar
 				sx={{ justifyContent: { sm: 'space-evenly', xs: 'space-evenly' } }}
 			>
-				<Typography variant='h6'>
-					<a href='/' style={{ textDecoration: 'none', color: 'white' }}>
-						<Home />
-					</a>
-				</Typography>
-				<Typography variant='h6'>
-					<a
-						href='/projects'
-						style={{ textDecoration: 'none', color: 'white' }}
-					>
-						<Projects />
-					</a>
-				</Typography>
-				<Typography variant='h6'>
-					<a href='/studies' style={{ textDecoration: 'none', color: 'white' }}>
-						<Studies />
-					</a>
-				</Typography>
-				<Typography variant='h6'>
-					<a href='/skills' style={{ textDecoration: 'none', color: 'white' }}>
-						<Skills />
-					</a>
-				</Typography>
+				<NavbarLink linkURL={'/'} labelLink={<Home />} />
+				<NavbarLink linkURL={'/projects'} labelLink={<Projects />} />
+				<NavbarLink linkURL={'/skills'} labelLink={<Skills />} />
+				<NavbarLink linkURL={'/studies'} labelLink={<Studies />} />
 			</Toolbar>
 			<Divider />
 		</AppBar>

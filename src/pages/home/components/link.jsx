@@ -1,12 +1,13 @@
 import Typography from '@mui/material/Typography';
-export const Link = ({ labelLink, link }) => {
+import { Link } from 'react-router-dom';
+export const LinkDom = ({ labelLink, linkURL }) => {
 	return (
 		<>
-			<a href={link} style={{ textDecoration: `none` }}>
+			<Link to={linkURL} style={{ textDecoration: `none` }}>
 				<Typography variant='p' color='#6885EF'>
 					{labelLink}
 				</Typography>
-			</a>
+			</Link>
 		</>
 	);
 };

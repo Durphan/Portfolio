@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import {
 	AngularIcon,
 	Bootstrap,
@@ -13,8 +14,9 @@ import { Skill } from './skill';
 import { SkillBox } from './skillBox';
 
 export const TechSkills = () => {
+	const { t } = useTranslation();
 	return (
-		<SkillBox>
+		<SkillBox titleBox={t('informationBox.skillsLink')}>
 			<Skill svg={<JavaScript />} skillName={'JavaScript'} />
 			<Skill svg={<Css />} skillName={'CSS'} />
 			<Skill svg={<Bootstrap />} skillName={'Bootstrap'} />
