@@ -1,5 +1,5 @@
 import { Box, Typography } from '@mui/material';
-import { LinkDom } from './link';
+import { LinkHome } from './link';
 import { useTranslation } from 'react-i18next';
 
 export const InformationBox = () => {
@@ -26,19 +26,19 @@ export const InformationBox = () => {
 				{t('informationBox.invitation')}
 				<ul>
 					<li>
-						<LinkDom
+						<LinkHome
 							labelLink={t('informationBox.skillsLink')}
 							linkURL={'/skills'}
 						/>
 					</li>
 					<li>
-						<LinkDom
+						<LinkHome
 							labelLink={t('informationBox.projectsLink')}
 							linkURL={'/projects'}
 						/>
 					</li>
 					<li>
-						<LinkDom
+						<LinkHome
 							labelLink={t('informationBox.educationLink')}
 							linkURL={'/studies'}
 						/>

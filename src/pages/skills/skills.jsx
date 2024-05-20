@@ -2,6 +2,7 @@ import { ThemeConfig } from '../../config/theme.config';
 import { Navbar } from '../../components/navbar';
 import { SoftSkills } from './components/softSkills';
 import { TechSkills } from './components/techSkills';
+import { Transition } from '../../routes/transition';
 
 export const Skills = () => {
 	return (
@@ -11,10 +12,12 @@ export const Skills = () => {
 					<Navbar />
 				</nav>
 			</header>
-			<main>
-				<SoftSkills />
-				<TechSkills />
-			</main>
+			<Transition>
+				<main>
+					<SoftSkills />
+					<TechSkills />
+				</main>
+			</Transition>
 		</ThemeConfig>
 	);
 };

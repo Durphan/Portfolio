@@ -3,17 +3,18 @@ import { ThemeConfig } from '../../config/theme.config';
 import { GridBox } from '../../components/gridBox';
 import { AllStudies } from './components/allStudies';
 import { useTranslation } from 'react-i18next';
+import { Transition } from '../../routes/transition';
 
-export const Studies = () => {
+export const StudiesPage = () => {
 	const { t } = useTranslation();
 	return (
-		<>
-			<ThemeConfig>
-				<Navbar />
+		<ThemeConfig>
+			<Navbar />
+			<Transition>
 				<GridBox titleBox={t(`education.title`)}>
 					<AllStudies />
 				</GridBox>
-			</ThemeConfig>
-		</>
+			</Transition>
+		</ThemeConfig>
 	);
 };

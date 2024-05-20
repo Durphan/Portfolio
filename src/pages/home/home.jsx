@@ -2,10 +2,11 @@ import { ThemeConfig } from '../../config/theme.config';
 import { Footer } from './components/footer';
 import { Header } from './components/header';
 import { ConsoleEmulator } from './components/consoleEmulator';
+import { Transition } from '../../routes/transition';
 
-export const Home = () => {
+export const HomePage = () => {
 	return (
-		<>
+		<Transition>
 			<ThemeConfig>
 				<header>
 					<Header />
@@ -17,6 +18,6 @@ export const Home = () => {
 					<Footer />
 				</footer>
 			</ThemeConfig>
-		</>
+		</Transition>
 	);
 };
