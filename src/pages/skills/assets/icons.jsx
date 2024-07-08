@@ -61,32 +61,6 @@ export const Css = () => {
 	);
 };
 
-export const JavaScript = () => {
-	return (
-		<>
-			<svg
-				xmlns='http://www.w3.org/2000/svg'
-				aria-label='JavaScript'
-				role='img'
-				viewBox='0 0 512 512'
-				width='70px'
-				height='70px'
-				fill='#000000'
-			>
-				<g id='SVGRepo_bgCarrier' strokeWidth='0'></g>
-				<g
-					id='SVGRepo_tracerCarrier'
-					strokeLinecap='round'
-					strokeLinejoin='round'
-				></g>
-				<g id='SVGRepo_iconCarrier'>
-					<rect width='512' height='512' rx='15%' fill='#f7df1e'></rect>
-					<path d='M324 370c10 17 24 29 47 29c20 0 33-10 33 -24c0-16 -13 -22 -35 -32l-12-5c-35-15 -58 -33 -58 -72c0-36 27 -64 70 -64c31 0 53 11 68 39l-37 24c-8-15 -17 -21 -31 -21c-14 0-23 9 -23 21c0 14 9 20 30 29l12 5c41 18 64 35 64 76c0 43-34 67 -80 67c-45 0-74 -21 -88 -49zm-170 4c8 13 14 25 31 25c16 0 26-6 26 -30V203h48v164c0 50-29 72 -72 72c-39 0-61 -20 -72 -44z'></path>
-				</g>
-			</svg>
-		</>
-	);
-};
 
 export const MaterilaUI = () => {
 	return (
@@ -222,32 +196,6 @@ export const ReactIcon = () => {
 	);
 };
 
-export const AngularIcon = () => {
-	return (
-		<svg
-			width='81px'
-			height='81px'
-			viewBox='0 0 32 32'
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-		>
-			<g id='SVGRepo_bgCarrier' strokeWidth='0'></g>
-			<g
-				id='SVGRepo_tracerCarrier'
-				strokeLinecap='round'
-				strokeLinejoin='round'
-			></g>
-			<g id='SVGRepo_iconCarrier'>
-				<path d='M16 2L3 7L5 24L16 30L27 24L29 7L16 2Z' fill='#DD0031'></path>
-				<path d='M16 2V30L27 24L29 7L16 2Z' fill='#C3002F'></path>
-				<path
-					d='M15.9998 5.09375L7.87305 23.3638H10.9031L12.5368 19.2757H19.4348L21.0685 23.3638H24.0986L15.9998 5.09375ZM18.3736 16.7557H13.626L15.9998 11.0298L18.3736 16.7557Z'
-					fill='white'
-				></path>
-			</g>
-		</svg>
-	);
-};
 
 export const Mysql = () => {
 	return (
