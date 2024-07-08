@@ -5,9 +5,7 @@ import { SunriseCafe } from './sunriseCafe';
 export const AllProjects = () => {
 	return (
 		<>
-			<RickAndMorty />
 			<GlobalGameJam />
-			<SunriseCafe />
 		</>
 	);
 };

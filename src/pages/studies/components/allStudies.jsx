@@ -1,5 +1,5 @@
 import { English } from './english';
-import { ProgrammingCourse } from './programmingCourse';
+import { ProgrammingCourse } from './networkingCourse';
 import { University } from './university';
 
 export const AllStudies = () => {
@@ -7,7 +7,7 @@ export const AllStudies = () => {
 		<>
 			<University />
 			<English />
-			<ProgrammingCourse />
+			<ProgrammingCourse/>
 		</>
 	);
 };

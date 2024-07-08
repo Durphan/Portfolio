@@ -9,8 +9,8 @@ export const University = () => {
 			gridName={'UNAHUR'}
 			img={unahur}
 			description={t(`education.university.description`)}
-			toolsLearned={'JavaScript, CSS, HTML, Git, MYSQL'}
-			link={`https://drive.google.com/file/d/1x0yWUlf1rMaua1teYsTpKtQRAxASXE3s/view`}
+			toolsLearned={'JavaScript, CSS, HTML, Git, MYSQL, Oracle'}
+			link={`https://drive.google.com/file/d/1IKeINrAGeKU9afmAYJiUnhaucAAA2Tq4/view?usp=sharing`}
 			isProject={false}
 		/>
 	);
