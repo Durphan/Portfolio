@@ -16,7 +16,7 @@
         }
     },
     "education":{
-        "tools":"tools learned",
+        "tools":"Tools learned",
         "title":"Education",
         "university":{
             "description":"Associate Degree in Computer Programming"
@@ -28,6 +28,9 @@
         "course":{
             "description":"Computer Networking",
             "toolsLearned":"OSI Model, Networking, client-server architecture"
+        },
+        "frontEndCourse" :{
+            "description":"Course of front end"
         }
     }
 }

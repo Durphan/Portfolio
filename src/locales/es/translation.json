@@ -28,6 +28,9 @@
         "course":{
             "description":"Redes de computadoras",
             "toolsLearned":"Modelo OSI, gestion de redes, arquitectura cliente-servidor"
+        },
+        "frontEndCourse" :{
+            "description":"course of front end"
         }
     }
 }

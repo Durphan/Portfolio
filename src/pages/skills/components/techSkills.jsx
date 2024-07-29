@@ -7,6 +7,7 @@ import {
 	Nodejs,
 	ReactIcon,
 	TypeScript,
+	Java,
 } from '../assets/icons';
 import { Skill } from './skill';
 import { SkillBox } from './skillBox';
@@ -22,6 +23,7 @@ export const TechSkills = () => {
 			<Skill svg={<Nodejs />} skillName={'NodeJS'} />
 			<Skill svg={<ReactIcon />} skillName={'React'} />
 			<Skill svg={<Mysql />} skillName={'MYSQL'} />
+			<Skill svg={<Java />} skillName={'Java'} />
 		</SkillBox>
 	);
 };
