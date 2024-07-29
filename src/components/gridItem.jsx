@@ -46,7 +46,7 @@ export const GridItem = ({
 								height={250}
 								width={230}
 								image={img}
-								sx={{ border: '#00000 solid black' }}
+								sx={{ border: '#00000 solid black', objectFit:'scale-down'}}
 							/>
 							<CardContent>
 								{isProject ? (
