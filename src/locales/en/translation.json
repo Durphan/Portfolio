@@ -15,7 +15,7 @@
 			"description": "Intensive development for a 2D video game over the course of 3 days, it was our first time participating in this kind of challenge."
 		},
 		"rickAndMorty": {
-			"description": "A project which i did to practice the use of API's using Axios and asyncronism."
+			"description": "A project that i did to practice the use of API's using Axios and asyncronism."
 		},
 		"portfolio": {
 			"description": "For this project i used I18Next for internationalization, and the library motion for animations."
