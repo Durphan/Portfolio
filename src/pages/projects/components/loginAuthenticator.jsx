@@ -7,7 +7,7 @@ export const LoginAuthenticator = () => {
 	return (
 		<>
 			<GridItem
-				gridName={''}
+				gridName={t('projects.loginAuthenticator.name')}
 				isProject={true}
 				link={'/'}
 				img={inProgress}
