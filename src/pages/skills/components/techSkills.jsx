@@ -8,6 +8,7 @@ import {
 	ReactIcon,
 	TypeScript,
 	Java,
+	OracleSQL,
 } from '../assets/icons';
 import { Skill } from './skill';
 import { SkillBox } from './skillBox';
@@ -24,6 +25,7 @@ export const TechSkills = () => {
 			<Skill svg={<ReactIcon />} skillName={'React'} />
 			<Skill svg={<Mysql />} skillName={'MYSQL'} />
 			<Skill svg={<Java />} skillName={'Java'} />
+			<Skill svg={<OracleSQL />} skillName={'PLSQL'} />
 		</SkillBox>
 	);
 };

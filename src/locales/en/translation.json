@@ -1,36 +1,45 @@
 {
-    "informationBox":{
-        "title":"Welcome to my portfolio",
-        "resume":" I'm a back-end developer who enjoys constant learning and create innovative applications.",
-        "invitation":"If you are interested, you can find more information below.",
-        "skillsLink":"Technical Skills",
-        "projectsLink":"Projects",
-        "educationLink":"Education",
-        "curriculum":"https://drive.google.com/file/d/1dKJUwcOg0DZ442lnmg0VYLOVIqE102G0/view?usp=sharing"
-    },
-    "projects":{
-        "tools":"tools used",
-        "title":"Projects",
-        "gameJam":{
-            "description":"Intensive development for a 2D video game over the course of 3 days, it was our first time participating in this kind of challenge."
-        }
-    },
-    "education":{
-        "tools":"Tools learned",
-        "title":"Education",
-        "university":{
-            "description":"Associate Degree in Computer Programming"
-        },
-        "english":{
-            "toolsLearned":"Reading and use of English, Speaking",
-            "description":"B2 English"
-        },
-        "course":{
-            "description":"Computer Networking",
-            "toolsLearned":"OSI Model, Networking, client-server architecture"
-        },
-        "frontEndCourse" :{
-            "description":"Course of front end"
-        }
-    }
+	"informationBox": {
+		"title": "Welcome to my portfolio",
+		"resume": " I'm a back-end developer who enjoys constant learning and create innovative applications.",
+		"invitation": "If you are interested, you can find more information below.",
+		"skillsLink": "Technical Skills",
+		"projectsLink": "Projects",
+		"educationLink": "Education",
+		"curriculum": "https://drive.google.com/file/d/1dKJUwcOg0DZ442lnmg0VYLOVIqE102G0/view?usp=sharing"
+	},
+	"projects": {
+		"tools": "Tools used",
+		"title": "Projects",
+		"gameJam": {
+			"description": "Intensive development for a 2D video game over the course of 3 days, it was our first time participating in this kind of challenge."
+		},
+		"rickAndMorty": {
+			"description": "A project which i did to practice the use of API's using Axios and asyncronism."
+		},
+		"portfolio": {
+			"description": "For this project i used I18Next for internationalization, and the library motion for animations."
+		},
+		"loginAuthenticator": {
+			"description": "A mini-project i'm doing to practice CRUD with Spring and Java, creating a login and register system."
+		}
+	},
+	"education": {
+		"tools": "Tools learned",
+		"title": "Education",
+		"university": {
+			"description": "Associate Degree in Computer Programming."
+		},
+		"english": {
+			"toolsLearned": "Reading and use of English, Speaking.",
+			"description": "B2 English"
+		},
+		"course": {
+			"description": "Computer Networking",
+			"toolsLearned": "OSI Model, Networking, client-server architecture."
+		},
+		"frontEndCourse": {
+			"description": "Course of front end"
+		}
+	}
 }

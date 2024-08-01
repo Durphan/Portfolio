@@ -21,7 +21,7 @@ export const Header = () => {
 					Esteban Durante
 				</Typography>
 				<Typography variant='h2' color='#76c478'>
-					Web developer
+					Back-end developer
 				</Typography>
 			</Box>
 		</>

@@ -1,36 +1,45 @@
 {
-    "informationBox":{
-        "title":"Bienvenido a mi portafolio.",
-        "resume":"Soy un desarrollador back-end que disfruta del aprendizaje constante y de crear aplicaciones innovadoras.",
-        "invitation":"Si estas interesado puedes ver informacion mas abajo.",
-        "skillsLink":"Habilidades tecnicas",
-        "projectsLink":"Proyectos",
-        "educationLink":"Educacion",
-        "curriculum":"https://drive.google.com/file/d/1QoumOjvPSHCg2hXfGU0KA4oN58nPyNxc/view?usp=sharing"
-    },
-    "projects":{
-        "tools":"Herramientas usadas",
-        "title":"Proyectos",
-        "gameJam":{
-            "description":"Desarrollo intensivo de 3 dias para un videojuego, encargandome de la organizacion del equipo."
-        }
-    },
-    "education":{
-        "tools":"Herramientas aprendidas",
-        "title":"Educacion",
-        "university":{
-            "description":"Tecnicatura Universitaria en Programacion"
-        },
-        "english":{
-            "toolsLearned":"Lectura y uso del ingles",
-            "description":"Ingles B2"
-        },
-        "course":{
-            "description":"Redes de computadoras",
-            "toolsLearned":"Modelo OSI, gestion de redes, arquitectura cliente-servidor"
-        },
-        "frontEndCourse" :{
-            "description":"course of front end"
-        }
-    }
+	"informationBox": {
+		"title": "Bienvenido a mi portafolio.",
+		"resume": "Soy un desarrollador back-end que disfruta del aprendizaje constante y de crear aplicaciones innovadoras.",
+		"invitation": "Si estas interesado puedes ver informacion mas abajo.",
+		"skillsLink": "Habilidades tecnicas",
+		"projectsLink": "Proyectos",
+		"educationLink": "Educacion",
+		"curriculum": "https://drive.google.com/file/d/1QoumOjvPSHCg2hXfGU0KA4oN58nPyNxc/view?usp=sharing"
+	},
+	"projects": {
+		"tools": "Herramientas usadas",
+		"title": "Proyectos",
+		"gameJam": {
+			"description": "Desarrollo intensivo de 3 dias para un videojuego, encargandome de la organizacion del equipo."
+		},
+		"rickAndMorty": {
+			"description": "Un proyecto que hice de prueba para ver el tema de consumo de API's y asincronismo."
+		},
+		"portfolio": {
+			"description": "Para este proyecto use I18Next para internacionalizacion y Motion para las animaciones."
+		},
+		"loginAuthenticator": {
+			"description": "Un mini proyecto que estoy haciendo para practicar CRUD con Spring y Java, haciendo un sistema de login y registro."
+		}
+	},
+	"education": {
+		"tools": "Herramientas aprendidas",
+		"title": "Educacion",
+		"university": {
+			"description": "Tecnicatura Universitaria en Programacion."
+		},
+		"english": {
+			"toolsLearned": "Lectura y uso del ingles.",
+			"description": "Ingles B2"
+		},
+		"course": {
+			"description": "Redes de computadoras",
+			"toolsLearned": "Modelo OSI, gestion de redes, arquitectura cliente-servidor."
+		},
+		"frontEndCourse": {
+			"description": "course of front end"
+		}
+	}
 }

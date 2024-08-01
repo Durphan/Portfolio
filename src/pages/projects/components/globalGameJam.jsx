@@ -8,7 +8,7 @@ export const GlobalGameJam = () => {
 		<>
 			<GridItem
 				gridName={'Global Game Jam 2024'}
-				toolsUsed={'C#, Unity Game Engine, SCRUM, MVP, Project Management'}
+				toolsUsed={'C#, Unity Game Engine, SCRUM, Project Management'}
 				img={GlobalGameJamImage}
 				description={t(`projects.gameJam.description`)}
 				link={'https://globalgamejam.org/games/2024/slime-survivor-1'}
