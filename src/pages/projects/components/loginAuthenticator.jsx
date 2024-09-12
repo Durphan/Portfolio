@@ -7,14 +7,12 @@ export const LoginAuthenticator = () => {
 	return (
 		<>
 			<GridItem
-				gridName={t('projects.loginAuthenticator.name')}
+				gridName={t('projects.loginRegisterSystem.name')}
 				isProject={true}
-				link={'/'}
+				link={'https://github.com/Durphan/login-register-system-spring'}
 				img={inProgress}
-				toolsUsed={
-					'React, Material UI, Java, SQL, Spring, TypeScript, React Hook Form, Yup'
-				}
-				description={t('projects.loginAuthenticator.description')}
+				toolsUsed={' Java, SQL, Spring'}
+				description={t('projects.loginRegisterSystem.description')}
 			/>
 		</>
 	);

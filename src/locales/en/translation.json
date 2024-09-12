@@ -20,9 +20,9 @@
 		"portfolio": {
 			"description": "For this project i used I18Next for internationalization, and the library motion for animations."
 		},
-		"loginAuthenticator": {
+		"loginRegisterSystem": {
 			"name": "Login/register system",
-			"description": "I'm doing this mini-project to practice CRUD with Spring and Java, creating a login and register system."
+			"description": "I'm doing this mini-project to practice CRUD with Spring and Java and create a login and register system."
 		}
 	},
 	"education": {
