@@ -6,7 +6,6 @@ import { FooterLink } from './footerLink';
 export const Footer = () => {
 	const { t } = useTranslation();
 	return (
-		<>
 			<Box
 				display={'flex'}
 				alignItems={'center'}
@@ -25,6 +24,6 @@ export const Footer = () => {
 					<Resume />
 				</FooterLink>
 			</Box>
-		</>
+		
 	);
 };

@@ -1,5 +1,7 @@
 import { Box, Grid, Typography } from '@mui/material';
 import { StaggerChildren } from '../../../components/staggerChildrenAnimation';
+import PropTypes from 'prop-types'
+
 
 export const Skill = ({ svg, skillName }) => {
 	return (
@@ -16,3 +18,8 @@ export const Skill = ({ svg, skillName }) => {
 		</Grid>
 	);
 };
+
+Skill.propTypes = {
+	svg: PropTypes.string.isRequired,
+	skillName: PropTypes.string.isRequired
+}

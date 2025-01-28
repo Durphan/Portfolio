@@ -5,7 +5,6 @@ import portfolioImage from '../assets/portfolio.png';
 export const Portfolio = () => {
 	const { t } = useTranslation();
 	return (
-		<>
 			<GridItem
 				gridName={'Portfolio'}
 				isProject={true}
@@ -14,6 +13,5 @@ export const Portfolio = () => {
 				description={t('projects.portfolio.description')}
 				img={portfolioImage}
 			/>
-		</>
 	);
 };

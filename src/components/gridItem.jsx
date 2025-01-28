@@ -8,8 +8,9 @@ import {
 	Typography,
 } from '@mui/material';
 import { useTranslation } from 'react-i18next';
-
+import PropTypes from 'prop-types';
 import { StaggerChildren } from './staggerChildrenAnimation';
+
 
 export const GridItem = ({
 	link,
@@ -23,7 +24,7 @@ export const GridItem = ({
 	const { t } = useTranslation();
 
 	return (
-		<>
+	
 			<Grid item xs={12} sm={6} md={4} lg={3} mx={2}>
 				<StaggerChildren>
 					<a
@@ -75,6 +76,15 @@ export const GridItem = ({
 					</a>
 				</StaggerChildren>
 			</Grid>
-		</>
-	);
-};
+	)}
+
+	GridItem.propTypes = {
+		link: PropTypes.string.isRequired,
+		gridName: PropTypes.string.isRequired,
+		toolsUsed: PropTypes.string,
+		img: PropTypes.string.isRequired,
+		description: PropTypes.string.isRequired,
+		isProject: PropTypes.bool.isRequired,
+		toolsLearned: PropTypes.string,
+	};
+	

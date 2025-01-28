@@ -38,8 +38,8 @@ export const ConsoleEmulator = () => {
 					marginBottom: '30px',
 				}}
 			>
-				{output.map((content, index) => (
-					<div key={index}>{content}</div>
+				{output.map((content) => (
+					<div key={content.key}>{content}</div>
 				))}
 			</Box>
 		</Box>

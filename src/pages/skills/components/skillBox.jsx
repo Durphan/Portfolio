@@ -1,4 +1,5 @@
 import { Box, Grid, Typography } from '@mui/material';
+import PropTypes from 'prop-types';
 
 export const SkillBox = ({ titleBox, children }) => {
 	return (
@@ -23,4 +24,9 @@ export const SkillBox = ({ titleBox, children }) => {
 			</Grid>
 		</Box>
 	);
+};
+
+SkillBox.propTypes = {
+  titleBox: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };

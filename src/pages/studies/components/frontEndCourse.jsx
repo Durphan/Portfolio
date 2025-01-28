@@ -5,7 +5,7 @@ import argentinaPrograma from "../assets/argentina-programa.png"
 export const FrontEndCourse = () => {
     const { t } = useTranslation()
     return(
-        <>
+
         <GridItem
         gridName={'Argentina Programa'}
         isProject={false}
@@ -13,6 +13,5 @@ export const FrontEndCourse = () => {
         toolsLearned={'React'}
         img={argentinaPrograma}
         />
-        </>
     )
 }

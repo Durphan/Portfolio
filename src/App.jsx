@@ -4,11 +4,10 @@ import { AnimatedRoutes } from './routes/animatedRoutes';
 
 function App() {
 	return (
-		<>
+		
 			<BrowserRouter>
 				<AnimatedRoutes />
 			</BrowserRouter>
-		</>
 	);
 }
 

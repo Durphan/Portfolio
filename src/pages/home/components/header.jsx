@@ -5,7 +5,7 @@ export const Header = () => {
 	const isMobile = useMediaQuery('(max-width:600px)');
 
 	return (
-		<>
+		
 			<Box
 				textAlign={'center'}
 				display={'flex'}
@@ -24,6 +24,6 @@ export const Header = () => {
 					Back-end developer
 				</Typography>
 			</Box>
-		</>
+		
 	);
 };

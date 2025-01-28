@@ -5,7 +5,6 @@ import rickAndMortyImage from '../assets/rickandmorty.png';
 export const RickAndMorty = () => {
 	const { t } = useTranslation();
 	return (
-		<>
 			<GridItem
 				gridName={'Rick and Morty API'}
 				isProject={true}
@@ -16,6 +15,5 @@ export const RickAndMorty = () => {
 				link={'https://github.com/Durphan/Rick-and-morty-Characters'}
 				description={t('projects.rickAndMorty.description')}
 			/>
-		</>
 	);
 };

@@ -5,7 +5,7 @@ import inProgress from '../assets/inProgress.png';
 export const LoginAuthenticator = () => {
 	const { t } = useTranslation();
 	return (
-		<>
+	
 			<GridItem
 				gridName={t('projects.loginRegisterSystem.name')}
 				isProject={true}
@@ -14,6 +14,6 @@ export const LoginAuthenticator = () => {
 				toolsUsed={' Java, SQL, Spring'}
 				description={t('projects.loginRegisterSystem.description')}
 			/>
-		</>
+	
 	);
 };
