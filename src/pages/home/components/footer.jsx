@@ -6,6 +6,7 @@ import { FooterLink } from './footerLink';
 export const Footer = () => {
 	const { t } = useTranslation();
 	return (
+<<<<<<< HEAD
 			<Box
 				display={'flex'}
 				alignItems={'center'}
@@ -25,5 +26,25 @@ export const Footer = () => {
 				</FooterLink>
 			</Box>
 		
+=======
+		<Box
+			display={'flex'}
+			alignItems={'center'}
+			justifyContent={'Center'}
+			flexDirection={'row'}
+			marginTop={'20px'}
+			gap={5}
+		>
+			<FooterLink url='https://github.com/Durphan'>
+				<Github />
+			</FooterLink>
+			<FooterLink url='https://www.linkedin.com/in/esteban-durante/'>
+				<Linkedin />
+			</FooterLink>
+			<FooterLink url={t('informationBox.curriculum')}>
+				<Resume />
+			</FooterLink>
+		</Box>
+>>>>>>> f60065a (feat(projects) added new projects to the portfolio)
 	);
 };

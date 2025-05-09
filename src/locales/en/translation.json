@@ -15,21 +15,21 @@
 			"description": "Intensive development for a 2D video game over the course of 3 days, it was our first time participating in this kind of challenge."
 		},
 		"rickAndMorty": {
-			"description": "A project that i did to practice the use of API's using Axios and asyncronism."
+			"description": "A project you can find a list of characters from the series Rick and Morty."
 		},
 		"portfolio": {
-			"description": "For this project i used I18Next for internationalization, and the library motion for animations."
+			"description": "My portfolio, where i show my projects and skills, it's responsive and has internacionalization."
 		},
 		"loginRegisterSystem": {
 			"name": "Login/register system",
-			"description": "I'm doing this mini-project to practice CRUD with Spring and Java and create a login and register system."
+			"description": "A service of register and login, where you can create an account and log in with it."
 		}
 	},
 	"education": {
 		"tools": "Tools learned",
 		"title": "Education",
 		"university": {
-			"description": "Associate Degree in Computer Programming."
+			"description": "Bachelor Degree in Computer Programming."
 		},
 		"english": {
 			"toolsLearned": "Reading and use of English, Speaking.",

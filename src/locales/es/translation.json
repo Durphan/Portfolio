@@ -12,17 +12,17 @@
 		"tools": "Herramientas usadas",
 		"title": "Proyectos",
 		"gameJam": {
-			"description": "Desarrollo intensivo de 3 dias para un videojuego, encargandome de la organizacion del equipo."
+			"description": "Un videojuego 2D desarrollado en 3 dias, fue nuestra primera vez participando en este tipo de desafio."
 		},
 		"rickAndMorty": {
-			"description": "Un proyecto que hice de prueba para ver el tema de consumo de API's y asincronismo."
+			"description": "Un proyecto en el cual puedes encontrar una lista de personajes de la serie Rick and Morty."
 		},
 		"portfolio": {
-			"description": "Para este proyecto use I18Next para internacionalizacion y Motion para las animaciones."
+			"description": "Mi porafolio, donde muestro mis proyectos y habilidades, es responsive y tiene internacionalizacion."
 		},
 		"loginRegisterSystem": {
 			"name": "Sistema de login/registro",
-			"description": "Un mini proyecto que estoy haciendo para practicar CRUD con Spring y Java, y hacer un sistema de login y registro."
+			"description": "Un sistema de login y registro, donde puedes crear una cuenta y loguearte con ella."
 		}
 	},
 	"education": {
@@ -40,7 +40,7 @@
 			"toolsLearned": "Modelo OSI, gestion de redes, arquitectura cliente-servidor."
 		},
 		"frontEndCourse": {
-			"description": "course of front end"
+			"description": "Curso of front end"
 		}
 	}
 }
