@@ -4,16 +4,9 @@ import { AnimatedRoutes } from './routes/animatedRoutes';
 
 function App() {
 	return (
-<<<<<<< HEAD
-		
-			<BrowserRouter>
-				<AnimatedRoutes />
-			</BrowserRouter>
-=======
 		<BrowserRouter>
 			<AnimatedRoutes />
 		</BrowserRouter>
->>>>>>> f60065a (feat(projects) added new projects to the portfolio)
 	);
 }
 

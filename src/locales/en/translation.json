@@ -23,6 +23,22 @@
 		"loginRegisterSystem": {
 			"name": "Login/register system",
 			"description": "A service of register and login, where you can create an account and log in with it."
+		},
+		"trackMyFix": {
+			"name": "Track My Fix",
+			"description": "A web application that allows you to track your device repairs, from the moment you request a repair until it is delivered to you."
+		},
+		"foodieScan": {
+			"name": "Foodie Scan",
+			"description": "A web application that allows you to create a menu for your restaurant, where you can add dishes, drinks, and desserts, and then share it with your customers."
+		},
+		"pipi-cucu": {
+			"name": "Pipi Cucu",
+			"description": "A web application for a client which allows you to track the orders of your restaurant, with a user-friendly interface and real-time updates."
+		},
+		"colectivar": {
+			"name": "ColectivAR",
+			"description": "A web application that allows you to track in real time the location of a bus in the city of Buenos Aires, Argentina. It uses the official API of the city to get the data and display it on a map."
 		}
 	},
 	"education": {

@@ -23,6 +23,22 @@
 		"loginRegisterSystem": {
 			"name": "Sistema de login/registro",
 			"description": "Un sistema de login y registro, donde puedes crear una cuenta y loguearte con ella."
+		},
+		"trackMyFix": {
+			"name": "Track My Fix",
+			"description": "Una aplicacion web que te permite hacer seguimiento a las reparaciones de tus dispositivos, desde el momento en que solicitas una reparacion hasta que te la entregan."
+		},
+		"foodieScan": {
+			"name": "Foodie Scan",
+			"description": "Una aplicacion web que te permite crear un menu para tu restaurante, donde puedes agregar platos, bebidas y postres, y luego compartirlo con tus clientes."
+		},
+		"colectivar": {
+			"name": "ColectivAR",
+			"description": "Una aplicacion web que te permite hacer seguimiento en tiempo real de la ubicacion de un colectivo en la ciudad de Buenos Aires, Argentina. Utiliza la API oficial de la ciudad para obtener los datos y mostrarlos en un mapa."
+		},
+		"pipi-cucu": {
+			"name": "Pipi cucu",
+			"description": "Una aplicacion web que te permite hacer seguimiento de tus ordenes para tu restaurante."
 		}
 	},
 	"education": {

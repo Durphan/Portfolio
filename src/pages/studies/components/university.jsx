@@ -9,7 +9,9 @@ export const University = () => {
 			gridName={'UNAHUR'}
 			img={unahur}
 			description={t(`education.university.description`)}
-			toolsLearned={'JavaScript, CSS, HTML, Git, MYSQL, Oracle'}
+			toolsLearned={
+				'JavaScript, CSS, HTML, Git, MYSQL, Oracle, Python, Data Structures, Design Patterns, Java'
+			}
 			link={`https://drive.google.com/file/d/1IKeINrAGeKU9afmAYJiUnhaucAAA2Tq4/view?usp=sharing`}
 			isProject={false}
 		/>
